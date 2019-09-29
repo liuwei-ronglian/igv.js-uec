@@ -3,17 +3,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "Jim Robinson"
-  },
+  "author": "Jim Robinson",
   "browserslist": "> 1%, not dead",
   "bugs": {
     "url": "https://github.com/igvteam/igv.js/issues"
   },
   "contributors": [
-    {
-      "name": "Douglass Turner"
-    }
+    "Douglass Turner"
   ],
   "dependencies": {},
   "deprecated": false,
@@ -51,6 +47,4 @@
     "url": "git+https://github.com/igvteam/igv.js.git"
   },
   "version": "2.3.0"
-}
-
 }
