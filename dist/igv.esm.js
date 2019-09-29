@@ -42533,7 +42533,7 @@ async function createBrowser(parentDiv, config) {
 
     // Path to genomes.json file.   This is globally shared among all browser objects
     // GenomeUtils.genomeList = config.genomeList || "https://s3.amazonaws.com/igv.org.genomes/genomes.json";
-    GenomeUtils.genomeList = config.genomeList || "http://10.61.102.148/upload/genomes/genome.json";
+    GenomeUtils.genomeList = config.genomeList || "http://10.61.102.148/upload/genomes/genomes.json";
 
     setDefaults(config);
 
