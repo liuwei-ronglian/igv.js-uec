@@ -24977,6 +24977,10 @@ VcfParser.prototype.parseFeatures = function (data) {
                                     call.info[callFields.fields[idx]] = callToken;
                             }
                         });
+
+                        if (callFields.genotypeIndex === -1) {
+                            call.genotype = [];
+                        }
                     }
 
                 }

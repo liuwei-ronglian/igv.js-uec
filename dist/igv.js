@@ -25680,6 +25680,10 @@ Context.prototype = {
                     call.info[callFields.fields[idx]] = callToken;
                 }
               });
+
+              if (callFields.genotypeIndex === -1) {
+                call.genotype = [];
+              }
             }
           }
         }
