@@ -50824,10 +50824,13 @@ Context.prototype = {
                   var allVar = true; // until proven otherwise
 
                   var allRef = true;
-                  call.genotype.forEach(function (g) {
-                    if (g !== 0) allRef = false;
-                    if (g === 0) allVar = false;
-                  });
+
+                  if (call.genotype) {
+                    call.genotype.forEach(function (g) {
+                      if (g !== 0) allRef = false;
+                      if (g === 0) allVar = false;
+                    });
+                  }
 
                   if (allRef) {
                     ctx.fillStyle = this.homrefColor;
